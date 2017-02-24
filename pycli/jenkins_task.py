@@ -41,7 +41,6 @@ class JenkinsTask(object):
         return response.status_code
 
 
-
 def main():
     task = sys.argv[1]
     jenkins_task = JenkinsTask()
